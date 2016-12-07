@@ -3,7 +3,7 @@ java-technical-test
 
 Java programming questions.
 
-NOTE: Java 8 answers are preferred unless specified otherwise.
+**Note: Java 8 answers are preferred unless specified otherwise.**
 
 ## Instructions
 
@@ -55,9 +55,9 @@ Complete the method stub in the ParallelMultiSearchPartA class to provide a fast
 
 Use Java 8 features to achieve the parallelism.
 
-Note: Assume each Search is independent to the others.
+**Note: Assume each Search is independent to the others.**
 
-Note: The order of the results returned by the MultiSearch is not important.
+**Note: The order of the results returned by the MultiSearch is not important.**
 
 ### Part B: pre-Java 8
 
