@@ -1,4 +1,4 @@
-package com.solidstategroup.candidate.question1;
+package com.vvoosh.candidate.question1;
 
 /**
  * Class that handles palindrome operations

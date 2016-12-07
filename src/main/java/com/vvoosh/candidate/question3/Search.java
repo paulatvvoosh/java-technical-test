@@ -1,4 +1,4 @@
-package com.solidstategroup.candidate.question3;
+package com.vvoosh.candidate.question3;
 
 import java.io.IOException;
 import java.util.List;

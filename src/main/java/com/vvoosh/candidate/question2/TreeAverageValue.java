@@ -1,4 +1,4 @@
-package com.solidstategroup.candidate.question2;
+package com.vvoosh.candidate.question2;
 
 /**
  * Class to calculate the average value of the nodes in a tree

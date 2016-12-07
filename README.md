@@ -3,12 +3,14 @@ java-technical-test
 
 Java programming questions.
 
+NOTE: Java 8 answers are preferred unless specified otherwise.
+
 ## Instructions
 
 1. Clone this git repository which contains a number of Java source files and open as a project in your editor of choice.
 2. Answer the three questions listed below by providing the missing implementations.  Do NOT use 3rd party libraries.
 3. Provide tests in your preferred style to support your solution.  You can use common test libraries such as junit and mockito.
-4. Zip up and email the entire source tree to david@solidstategroup.com, mattel@solidstategroup.com and benk@solidstategroup.com.
+4. Zip up and email the entire source tree to paul@vvoosh.com and sascha@vvoosh.com.
 
 **Note: Please do NOT spend more than 2 hours on this test.**
 
@@ -40,13 +42,27 @@ defined set of searches.  The results of all the searches are to be aggregated.
 
 Example concrete class: SerialMultiSearch - usage - search google and yahoo searches for "London", in serial fashion
 
-As a single search call made to a resource might take a considerable amount of time, ParallelMultiSearch
-will execute all the searches in the MultiSearch in parallel to provide a quicker overall implementation.
+As a single search call made to a resource might take a considerable amount of time. 
 
-Complete the method stub in the ParallelMultiSearch class to provide a fast implementation of the search.
+We wish to implement a "parallel multi search" that will execute all the searches in the MultiSearch in parallel to 
+provide a quicker overall implementation.
 
 Example usage: - search google and yahoo searches for "London", in parallel fashion
+
+### Part A: Java 8
+
+Complete the method stub in the ParallelMultiSearchPartA class to provide a fast implementation of the search. 
+
+Use Java 8 features to achieve the parallelism.
 
 Note: Assume each Search is independent to the others.
 
 Note: The order of the results returned by the MultiSearch is not important.
+
+### Part B: pre-Java 8
+
+Repeat the functionality from part A.  
+
+Complete the method stub in the ParallelMultiSearchPartB
+
+This time do NOT use Java 8 features.

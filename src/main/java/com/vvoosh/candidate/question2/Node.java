@@ -1,4 +1,4 @@
-package com.solidstategroup.candidate.question2;
+package com.vvoosh.candidate.question2;
 
 import java.util.List;
 
